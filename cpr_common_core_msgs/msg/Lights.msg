@@ -1,0 +1,12 @@
+# Represents a command for the 4 pairs of RGB body lights on a CPR common core.
+
+uint8 LIGHTS_FRONT_PORT_UPPER=0
+uint8 LIGHTS_FRONT_PORT_LOWER=1
+uint8 LIGHTS_FRONT_STARBOARD_UPPER=2
+uint8 LIGHTS_FRONT_STARBOARD_LOWER=3
+uint8 LIGHTS_REAR_PORT_UPPER=4
+uint8 LIGHTS_REAR_PORT_LOWER=5
+uint8 LIGHTS_REAR_STARBOARD_UPPER=6
+uint8 LIGHTS_REAR_STARBOARD_LOWER=7
+
+cpr_common_core_msgs/RGB[8] lights
