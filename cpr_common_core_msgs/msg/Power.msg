@@ -1,5 +1,7 @@
 # Robot Power readings
 
+std_msgs/Header header
+
 # AC Power
 int8 NOT_APPLICABLE=-1
 
