@@ -16,7 +16,12 @@ find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+   msg/Fans.msg
+   msg/Lights.msg
+   msg/Power.msg
+   msg/RGB.msg
    msg/Status.msg
+   msg/StopStatus.msg
    DEPENDENCIES std_msgs builtin_interfaces
 )
 
